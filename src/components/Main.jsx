@@ -9,7 +9,7 @@ function Main(){
                 <h1>Little lemon</h1>
                 <h3>Chicago</h3>
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                <Link to='/reservations'><button>Reserve a Table</button></Link>
+                <Link to='/Little-Lemon-Restaurent-Website/reservations'><button>Reserve a Table</button></Link>
             </aside>
             <aside>
                 <img src= {mainfood} alt="logo" />
