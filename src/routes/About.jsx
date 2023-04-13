@@ -1,10 +1,13 @@
 import React from "react";
 import imga from '../components/icons_assets/Mario and Adrian A.jpg';
 import imgb from '../components/icons_assets/Mario and Adrian b.jpg';
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 
 function About(){
     return(
         <>
+        <Nav />
         <section className="article">
             <section className="article_data">
                 <h1>Little Lemon</h1>
@@ -16,6 +19,7 @@ function About(){
                 <img src= {imgb} alt="mario" />
             </section>
         </section>
+        <Footer />
         </>
     );
 }

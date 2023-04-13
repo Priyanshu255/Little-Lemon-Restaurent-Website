@@ -1,10 +1,14 @@
 import React from 'react';
 import './ReservationsContent.css';
 import BookingForm from '../components/BookingForm';
+import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 function ReservationsPage() {
 
   return (
+    <>
+    <Nav />
     <div className="res-content-wrapper">
         <div className="res-content-container">
             <div className="text">
@@ -19,6 +23,8 @@ function ReservationsPage() {
             </div>
         </div>
     </div>
+    <Footer />
+    </>
   )
 }
 
